@@ -1,0 +1,18 @@
+Source: oracle-dumb
+Section: database
+Priority: required
+Maintainer: Kryazhevskikh Sergey, <soliverr@gmail.com>
+Build-Depends: debhelper (>= 5)
+
+Package: oracle-dumb
+Architecture: all
+Provides: oracle-client, oracle-server
+Description: Provides dependencies for an `oracle-dba'.
+ This package need to provide package dependencies to build or install
+ a bunch of `oracle-dba' packages.
+ .
+ Install this package if you want to use `oracle-dba' packages and already
+ had installed an Oracle RDBMS or Oracle client software by the official way
+ (Oracle Universal Installer).
+ .
+
